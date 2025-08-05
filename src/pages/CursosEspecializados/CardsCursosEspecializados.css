@@ -1,0 +1,121 @@
+.cursosespecializados-container {
+	padding: 4rem 2rem;
+	text-align: center;
+	color: white;
+}
+.cards-especializados {
+	padding: 4rem 2rem;
+	background-color: #000;
+	color: #fff;
+	font-family: var(--font-contenido);
+}
+
+.cards-especializados-container {
+	display: flex;
+	gap: 2rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card-especializado {
+	position: relative;
+	width: 100%;
+	max-width: 600px;
+	height: 460px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+	display: flex;
+	align-items: flex-end;
+	transition: transform 0.3s ease;
+}
+
+.card-especializado:hover {
+	transform: scale(1.03);
+}
+
+.titulo {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	background-color: rgba(250, 247, 247, 0.6);
+	padding: 6px;
+	border-radius: 8px;
+	width: 200px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0.3rem 0 2rem;
+}
+.subtitulo {
+	position: absolute;
+	top: 3rem;
+	left: 1rem;
+	display: flex;
+	font-size: 1rem;
+	color: #eee;
+}
+.overlay-inferior {
+	width: 100%;
+	padding: 1.5rem;
+	background: rgba(178, 0, 0, 0.637); /* rojo oscuro semitransparente */
+	backdrop-filter: blur(4px);
+	color: #fff;
+	border-top: 2px solid var(--color-dorado);
+}
+
+.overlay-inferior h3 {
+	margin: 0;
+	font-size: 1.4rem;
+	font-family: var(--font-titulos);
+}
+
+.divider-roja {
+	width: 50px;
+	height: 3px;
+	background-color: var(--color-texto);
+	margin: 0.5rem 0;
+}
+
+.tema {
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+	color: var(--color-dorado);
+}
+
+.lista-habilidades {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+
+.lista-habilidades li {
+	margin-bottom: 0.4rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.icono-superior {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 6px;
+	border-radius: 8px;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icono-superior img {
+	width: 45px;
+	height: 45px;
+	object-fit: contain;
+}

@@ -1,0 +1,63 @@
+.form-escolta-section {
+	background-color: #000;
+	color: #fff;
+	padding: 5rem 2rem;
+	font-family: var(--font-contenido);
+}
+
+.form-container {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #111;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.form-escolta-section h2 {
+	text-align: center;
+	font-size: 2rem;
+	color: var(--color-secundario);
+	margin-bottom: 2rem;
+	font-family: var(--font-titulos);
+}
+
+.form-escolta {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+}
+
+.form-escolta label {
+	color: #ccc;
+	font-weight: bold;
+}
+
+.form-escolta input,
+.form-escolta select {
+	padding: 0.8rem;
+	border: none;
+	border-radius: 5px;
+	background-color: #222;
+	color: #fff;
+	font-size: 1rem;
+}
+
+.form-escolta input::placeholder {
+	color: #888;
+}
+
+.form-escolta button {
+	padding: 0.8rem;
+	background-color: var(--color-primario);
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.form-escolta button:hover {
+	background-color: var(--color-detalle-dorado, #d4af37);
+}

@@ -1,0 +1,42 @@
+.escolta-header-section {
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	font-family: var(--font-titulos);
+}
+
+.escolta-header-img {
+	position: relative;
+}
+
+.escolta-header-img img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	filter: brightness(60%);
+}
+
+.escolta-header-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #fff;
+	padding: 2rem;
+	max-width: 900px;
+}
+
+.escolta-header-overlay h1 {
+	font-size: 3rem;
+	font-family: var(--font-titulos);
+	color: var(--color-secundario);
+	margin-bottom: 1rem;
+}
+
+.escolta-header-overlay p {
+	font-size: 1.2rem;
+	line-height: 1.6;
+	color: #eee;
+}

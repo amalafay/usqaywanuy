@@ -1,0 +1,75 @@
+.formulario-defensa-section {
+	background-color: #111;
+	color: #fff;
+	padding: 4rem 2rem;
+	font-family: var(--font-contenido);
+	text-align: center;
+}
+.form-container-defensa {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: black;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+.formulario-defensa-section h2 {
+	font-family: var(--font-titulos);
+	color: var(--color-secundario);
+	margin-bottom: 2rem;
+}
+
+.formulario-defensa-form {
+	background-color: black;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+}
+
+.formulario-defensa-form label {
+	display: flex;
+	flex-direction: column;
+	font-size: 1rem;
+	color: #ccc;
+}
+
+.formulario-defensa-form input,
+.formulario-defensa-form select {
+	padding: 0.6rem;
+	border-radius: 8px;
+	border: none;
+	background-color: #222;
+	color: #fff;
+	margin-top: 0.4rem;
+	font-family: inherit;
+}
+
+.checkbox-label {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+}
+
+.formulario-defensa-form button {
+	background-color: var(--color-primario);
+	color: #fff;
+	padding: 0.8rem 1.6rem;
+	border: none;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: var(--font-contenido);
+	cursor: pointer;
+	margin-top: 1rem;
+	transition: background-color 0.3s;
+}
+
+.formulario-defensa-form button:hover {
+	background-color: var(--color-secundario);
+}
+.text-ul-defensa {
+	text-align: justify;
+}
