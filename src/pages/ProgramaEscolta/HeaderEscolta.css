@@ -40,3 +40,23 @@
 	line-height: 1.6;
 	color: #eee;
 }
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+	.escolta-header-overlay {
+		padding: 1rem; /* Reduce el relleno */
+		max-width: 100%; /* Permite que el contenedor ocupe todo el ancho */
+		top: 50%; /* Mantén el centrado vertical */
+		transform: translate(-50%, -50%); /* Centrado ajustado */
+	}
+
+	.escolta-header-overlay h1 {
+		font-size: 1.8rem; /* Reduce el tamaño del título para que quepa en la pantalla */
+		margin-bottom: 0.5rem; /* Reduce el espacio debajo del título */
+	}
+
+	.escolta-header-overlay p {
+		font-size: 1rem; /* Reduce el tamaño del párrafo */
+		line-height: 1.4; /* Ajusta la altura de la línea para mejor legibilidad */
+	}
+}
